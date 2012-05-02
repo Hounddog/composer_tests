@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phing/phing":"dev-composer_modify as 2.4.12"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hounddog/phing"
+        }
+    ]
+}

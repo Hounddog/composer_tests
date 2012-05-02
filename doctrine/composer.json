@@ -1,0 +1,11 @@
+{
+    "require": {
+        "doctrine/doctrine2":"dev-composer_modify as 2.2.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hounddog/doctrine2"
+        }
+    ]
+}
