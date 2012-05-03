@@ -1,0 +1,19 @@
+{
+    "require": {
+        "simplehtmldom/simplehtmldom" : "1.5"
+    },
+    "repositories": [
+        {
+	"type": "package",
+	"package": {
+	    "name": "simplehtmldom/simplehtmldom",
+	    "version": "1.5",
+	    "dist": {
+		"url": "http://sourceforge.net/projects/simplehtmldom/files/simplehtmldom/1.5/simplehtmldom_1_5.zip/download",
+		"type": "zip"
+	    },
+	    "include-path": [""]
+	}
+    }
+    ]
+}

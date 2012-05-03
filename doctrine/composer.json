@@ -1,12 +1,23 @@
 {
     "require": {
-        "doctrine/orm":"dev-composer_modify as 2.2",
-	"symfony/console": "2.x"
+        "doctrine/orm":"dev-composer_modify as 2.2.0",
+	"symfony/console": "2.x",
+        "doctrine/dbal":"dev-filter_expression as 2.2.2",
+	"doctrine/migrations":"dev-exclude_tables"
     },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/Hounddog/doctrine2"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hounddog/dbal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hounddog/migrations"
         }
+
     ]
 }
