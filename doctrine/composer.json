@@ -1,6 +1,7 @@
 {
     "require": {
-        "doctrine/doctrine2":"dev-composer_modify as 2.2.2"
+        "doctrine/orm":"dev-composer_modify as 2.2",
+	"symfony/console": "2.x"
     },
     "repositories": [
         {
