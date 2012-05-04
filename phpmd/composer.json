@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpmd/phpmd":"dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hounddog/phpmd"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "require": {
+        "pdepend/pdepend":"dev-master"
+    },
+    "repositories":[
+        {
+            "type":"vcs",
+            "url":"https://github.com/Hounddog/pdepend"
+        }
+    ]
+}
