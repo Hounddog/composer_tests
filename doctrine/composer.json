@@ -1,9 +1,10 @@
 {
     "require": {
-        "doctrine/orm":"dev-composer_modify as 2.2.2",
+        "doctrine/orm":"dev-composer_modify as dev-master",
 	"symfony/console": "2.x",
-        "doctrine/dbal":"dev-filter_expression as 2.2.2",
-	"doctrine/migrations":"dev-exclude_tables"
+        "doctrine/dbal":"dev-filter_expression as dev-master",
+        "doctrine/common":"2.2.x-dev",
+        "doctrine/migrations":"dev-exclude_tables as dev-master"
     },
     "repositories": [
         {
